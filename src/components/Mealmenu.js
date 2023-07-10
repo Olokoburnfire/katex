@@ -1,19 +1,25 @@
 import React from "react";
-import { RxPlus } from "react-icons/fa";
+import { FaPlus } from "react-icons/fa";
 
 const Mealmenu = () => {
   return (
     <div className="meal">
-      <h3>Monday</h3>
-      <input type="text" class="meal-input" placeholder="Breakfast"></input>
-      <br />
+      <h3 className="day-name">Monday</h3>
+      <input type="text" className="meal-input" placeholder="Breakfast"></input>
       <button className="snack-button">
         <span className="snack-text">Snack</span>
-        <span className="plus-sign">
-          <RxPlus />
-        </span>
+        <FaPlus style={{ width: "24px", height: "24px" }} />
       </button>
-      <br />
+      <input type="text" className="meal-input" placeholder="Lunch"></input>
+      <button className="snack-button">
+        <span className="snack-text">Snack</span>
+        <FaPlus style={{ width: "24px", height: "24px" }} />
+      </button>
+      <input type="text" className="meal-input" placeholder="Dinner"></input>
+      <button className="snack-button">
+        <span className="snack-text">Snack</span>
+        <FaPlus style={{ width: "24px", height: "24px" }} />
+      </button>
     </div>
   );
 };
