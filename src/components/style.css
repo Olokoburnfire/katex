@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+.yellow-header {
+  background-color: #f9c802;
+  width: 390px;
+  height: 60px;
+}
+.logo {
+  width: 390px;
+  height: 60px;
+}
+
+.meal {
+  width: 320px;
+  height: 450px;
+  background-color: #202a36;
+  border-radius: 5px;
+  margin: auto;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.meal-input {
+  height: 50px;
+  width: 260px;
+  color: #222222;
+}
+
+::placeholder {
+  color: #222222;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  vertical-align: middle;
+}
+.snack-button {
+  margin: auto;
+  width: 120px;
+  height: 50px;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.snack-text {
+  font-family: "Poppins", sans-serif;
+}
+.plus-sign {
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+  color: black;
+  font-size: 50px;
+}
+
+div > h3 {
+  display: inline;
+}
